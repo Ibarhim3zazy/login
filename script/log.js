@@ -4,7 +4,7 @@ function funn(){
   phone= document.getElementById('p').value;
   age= document.getElementById('a').value;
   Tname= /^[A-Z][a-z]{2,18}([ ][A-Z][a-z]{2,18}){2}$/;
-  Tphone= /^[0][1][0-2]|[5][0-9]{8}$/;
+  Tphone= /^[0][1]([0-2]|[5])[0-9]{8}$/;
   Tage= /^[1-9]|[1-9][0-9]$/;
   if(name.length>3 &&
       isNaN(name)==true &&
